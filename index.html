@@ -1,0 +1,1025 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hitesh Mahajan | Aspiring Software Developer</title>
+
+  <!-- SEO & Meta Tags -->
+  <meta name="description"
+    content="Personal portfolio of Hitesh Mahajan — Second-Year Information Technology student at R.C. Patel Institute of Technology, Shirpur. Aspiring Software Developer, Java Learner, and Web Development Enthusiast.">
+  <meta name="author" content="Hitesh Mahajan">
+  <meta name="keywords"
+    content="Hitesh Mahajan, Software Developer, Java, Web Development, HTML, CSS, C, CodeChef, IT Student, Portfolio">
+
+  <!-- Open Graph / Social Sharing -->
+  <meta property="og:title" content="Hitesh Mahajan | Aspiring Software Developer">
+  <meta property="og:description"
+    content="Portfolio of Hitesh Mahajan — Second-Year IT Student, Aspiring Software Developer, Java Learner, and Web Development Enthusiast.">
+  <meta property="og:type" content="website">
+
+  <!-- Embedded SVG Favicon (No external requests needed) -->
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%232563eb'/><text x='50%' y='58%' dominant-baseline='middle' text-anchor='middle' font-family='sans-serif' font-size='42' font-weight='bold' fill='white'>HM</text></svg>">
+
+  <!-- Google Fonts: Inter & Plus Jakarta Sans for clean modern typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap"
+    rel="stylesheet">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Skip to Content for Accessibility -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Navigation Bar -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-brand" aria-label="Hitesh Mahajan Home">
+        <span class="brand-monogram">HM</span>
+        <span class="brand-name">Hitesh Mahajan</span>
+      </a>
+
+      <!-- Desktop Navigation Links -->
+      <nav class="nav-menu" id="nav-menu" aria-label="Primary Navigation">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link nav-link-cta">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Mobile Menu Hamburger Button -->
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false"
+        aria-controls="nav-menu">
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span class="badge-dot"></span>
+            <span>Second-Year IT Student &bull; R.C. Patel Institute</span>
+          </div>
+
+          <h1 class="hero-title">
+            Hi, I'm <span class="highlight-text">Hitesh Mahajan</span>
+          </h1>
+
+          <div class="hero-role-wrapper" aria-label="Professional Title">
+            <span class="hero-role-prefix">I am an </span>
+            <span class="hero-role-dynamic" id="role-typewriter">Aspiring Software Developer</span>
+            <span class="typewriter-cursor" aria-hidden="true">|</span>
+          </div>
+
+          <p class="hero-description">
+            An Information Technology student passionate about programming, web development, and solving real-world
+            problems through technology.
+          </p>
+
+          <blockquote class="hero-tagline">
+            <span class="quote-mark">&ldquo;</span>Learning, Building, and Improving — One Project at a Time.<span
+              class="quote-mark">&rdquo;</span>
+          </blockquote>
+
+          <!-- Hero Action Buttons -->
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">
+              <span>Explore My Projects</span>
+              <svg class="btn-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="12" y1="5" x2="12" y2="19"></line>
+                <polyline points="19 12 12 19 5 12"></polyline>
+              </svg>
+            </a>
+
+            <a href="https://github.com/hiteshmahajan2008-hdm" target="_blank" rel="noopener noreferrer"
+              class="btn btn-secondary">
+              <svg class="btn-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+                fill="currentColor">
+                <path
+                  d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z" />
+              </svg>
+              <span>Visit GitHub</span>
+            </a>
+
+            <!-- Contact Button -->
+            <a href="mailto:mahajanhitesh225@gmail.com" class="btn btn-outline" id="hero-contact-btn">
+              <svg class="btn-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+              <span>Contact Me</span>
+            </a>
+
+            <!-- Resume Button (Beside Contact Me) -->
+            <button type="button" class="btn btn-outline" id="resume-btn" aria-haspopup="dialog"
+              aria-controls="resume-modal" title="Download Resume">
+              <svg class="btn-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                <polyline points="14 2 14 8 20 8"></polyline>
+                <line x1="12" y1="18" x2="12" y2="12"></line>
+                <polyline points="9 15 12 18 15 15"></polyline>
+              </svg>
+              <span>Download Resume</span>
+            </button>
+
+            <!-- LinkedIn Icon Button -->
+            <a href="https://www.linkedin.com/in/hitesh-mahajan-477370443/" target="_blank" rel="noopener noreferrer"
+              class="btn-icon-link" aria-label="LinkedIn Profile" title="Connect on LinkedIn">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Hero Photo Area (Right Side on Desktop, Stacked on Mobile) -->
+        <div class="hero-visual">
+          <div class="hero-photo-wrapper">
+            <div class="hero-photo-frame" id="hero-photo-frame">
+              <!-- Actual Personal Photo with Automatic Graceful Fallback Container -->
+              <img src="krsna.jpeg" alt="Hitesh Mahajan" id="hero-profile-img" class="hero-photo-img"
+                onerror="this.style.display='none'; document.getElementById('photo-fallback-container').style.display='flex';"
+                onload="this.style.display='block'; document.getElementById('photo-fallback-container').style.display='none';">
+
+              <!-- Placeholder Container: Active until assets/hitesh.jpg is uploaded -->
+              <div class="photo-fallback-container" id="photo-fallback-container">
+                <div class="fallback-avatar-circle">
+                  <span class="fallback-avatar-letters">HM</span>
+                </div>
+                <h3 class="fallback-name">Hitesh Mahajan</h3>
+                <span class="fallback-role">Aspiring Software Developer</span>
+                <div class="fallback-upload-hint">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2">
+                    <rect x="3" y="3" width="18" height="18" rx="2" />
+                    <circle cx="8.5" cy="8.5" r="1.5" />
+                    <polyline points="21 15 16 10 5 21" />
+                  </svg>
+                  <span>Photo slot: <code>assets/hitesh.jpg</code></span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Student Profile Badge beneath photo -->
+            <div class="photo-caption-card">
+              <div class="photo-caption-item">
+                <span class="caption-icon-dot"></span>
+                <div>
+                  <strong class="caption-title">Second-Year IT Student</strong>
+                  <span class="caption-sub">R.C. Patel Institute of Technology</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">About Me</span>
+          <h2 class="section-title">Background &amp; Aspirations</h2>
+          <p class="section-subtitle">Dedicated to strengthening technical foundations and building practical software.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <!-- Biography Text -->
+          <div class="about-bio-card">
+            <h3 class="bio-heading">Hello, I'm Hitesh</h3>
+            <p class="bio-text">
+              I am a second-year Information Technology student at R.C. Patel Institute of Technology, Shirpur. I am
+              passionate about programming, web development, and problem-solving. I have learned HTML and CSS and am
+              currently developing my programming skills in Java and C. I enjoy practicing coding problems, exploring
+              new technologies, and working on practical academic projects. My goal is to strengthen my technical
+              foundation and become a skilled software developer through continuous learning and hands-on experience.
+            </p>
+
+            <div class="about-highlights">
+              <div class="highlight-item">
+                <div class="highlight-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M22 10v6M2 10l10-5 10 5-10 5z" />
+                    <path d="M6 12v5c3 3 9 3 12 0v-5" />
+                  </svg>
+                </div>
+                <div>
+                  <h4 class="highlight-title">Academic Pursuit</h4>
+                  <p class="highlight-desc">Second-year IT coursework with a focus on computing principles and software
+                    practice.</p>
+                </div>
+              </div>
+
+              <div class="highlight-item">
+                <div class="highlight-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polygon points="12 2 2 7 12 12 22 7 12 2" />
+                    <polyline points="2 17 12 22 22 17" />
+                    <polyline points="2 12 12 17 22 12" />
+                  </svg>
+                </div>
+                <div>
+                  <h4 class="highlight-title">Continuous Learning</h4>
+                  <p class="highlight-desc">Actively practicing Java and C problem-solving and building web projects.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Information Panel -->
+          <aside class="about-info-panel" aria-label="Personal Details">
+            <h3 class="panel-heading">Quick Details</h3>
+
+            <ul class="info-list">
+              <li class="info-item">
+                <div class="info-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                    <circle cx="12" cy="7" r="4"></circle>
+                  </svg>
+                </div>
+                <div class="info-content">
+                  <span class="info-label">Name</span>
+                  <span class="info-value">Hitesh Mahajan</span>
+                </div>
+              </li>
+
+              <li class="info-item">
+                <div class="info-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                    <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                  </svg>
+                </div>
+                <div class="info-content">
+                  <span class="info-label">Education</span>
+                  <span class="info-value">Second-Year Information Technology Student</span>
+                </div>
+              </li>
+
+              <li class="info-item">
+                <div class="info-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2 2z"></path>
+                    <polyline points="9 22 9 12 15 12 15 22"></polyline>
+                  </svg>
+                </div>
+                <div class="info-content">
+                  <span class="info-label">Institution</span>
+                  <span class="info-value">R.C. Patel Institute of Technology, Shirpur</span>
+                </div>
+              </li>
+
+              <li class="info-item">
+                <div class="info-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                  </svg>
+                </div>
+                <div class="info-content">
+                  <span class="info-label">Location</span>
+                  <span class="info-value">Shirpur, Maharashtra, India</span>
+                </div>
+              </li>
+
+              <li class="info-item">
+                <div class="info-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                  </svg>
+                </div>
+                <div class="info-content">
+                  <span class="info-label">Email</span>
+                  <a href="mailto:mahajanhitesh225@gmail.com" class="info-link">mahajanhitesh225@gmail.com</a>
+                </div>
+              </li>
+            </ul>
+
+            <div class="panel-action">
+              <a href="mailto:mahajanhitesh225@gmail.com" class="btn btn-primary btn-block">
+                <span>Send An Email</span>
+              </a>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills and Technologies Section -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Skills &amp; Technologies</span>
+          <h2 class="section-title">What I'm Working With</h2>
+          <p class="section-subtitle">An honest overview of technologies I have learned, tools I utilize, and subjects I
+            actively practice.</p>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Category 1: Frontend Development -->
+          <div class="skill-card">
+            <div class="skill-card-header">
+              <div class="skill-category-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="16 18 22 12 16 6"></polyline>
+                  <polyline points="8 6 2 12 8 18"></polyline>
+                </svg>
+              </div>
+              <div>
+                <h3 class="skill-category-title">Frontend Development</h3>
+                <span class="skill-category-subtitle">Learned Foundations</span>
+              </div>
+            </div>
+
+            <ul class="skill-items-list">
+              <li class="skill-item">
+                <div class="skill-badge-content">
+                  <span class="tech-icon-symbol html-color">HTML</span>
+                  <span class="skill-name">HTML5</span>
+                </div>
+                <span class="skill-status-tag tag-learned">Learned</span>
+              </li>
+              <li class="skill-item">
+                <div class="skill-badge-content">
+                  <span class="tech-icon-symbol css-color">CSS</span>
+                  <span class="skill-name">CSS3</span>
+                </div>
+                <span class="skill-status-tag tag-learned">Learned</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Category 2: Programming Languages -->
+          <div class="skill-card">
+            <div class="skill-card-header">
+              <div class="skill-category-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="4" y="4" width="16" height="16" rx="2" ry="2"></rect>
+                  <rect x="9" y="9" width="6" height="6"></rect>
+                  <line x1="9" y1="1" x2="9" y2="4"></line>
+                  <line x1="15" y1="1" x2="15" y2="4"></line>
+                  <line x1="9" y1="20" x2="9" y2="23"></line>
+                  <line x1="15" y1="20" x2="15" y2="23"></line>
+                  <line x1="20" y1="9" x2="23" y2="9"></line>
+                  <line x1="20" y1="14" x2="23" y2="14"></line>
+                  <line x1="1" y1="9" x2="4" y2="9"></line>
+                  <line x1="1" y1="14" x2="4" y2="14"></line>
+                </svg>
+              </div>
+              <div>
+                <h3 class="skill-category-title">Programming Languages</h3>
+                <span class="skill-category-subtitle">Core &amp; Practicing</span>
+              </div>
+            </div>
+
+            <ul class="skill-items-list">
+              <li class="skill-item">
+                <div class="skill-badge-content">
+                  <span class="tech-icon-symbol java-color">Java</span>
+                  <span class="skill-name">Java</span>
+                </div>
+                <span class="skill-status-tag tag-learning">Currently Learning</span>
+              </li>
+              <li class="skill-item">
+                <div class="skill-badge-content">
+                  <span class="tech-icon-symbol c-color">C</span>
+                  <span class="skill-name">C Language</span>
+                </div>
+                <span class="skill-status-tag tag-practicing">Practicing</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Category 3: Tools & Platforms -->
+          <div class="skill-card">
+            <div class="skill-card-header">
+              <div class="skill-category-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path
+                    d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z">
+                  </path>
+                </svg>
+              </div>
+              <div>
+                <h3 class="skill-category-title">Tools &amp; Platforms</h3>
+                <span class="skill-category-subtitle">Workflow &amp; Documentation</span>
+              </div>
+            </div>
+
+            <ul class="skill-items-list">
+              <li class="skill-item">
+                <div class="skill-badge-content">
+                  <span class="tech-icon-symbol github-color">Git</span>
+                  <span class="skill-name">GitHub</span>
+                </div>
+                <span class="skill-status-tag tag-tool">Version Control</span>
+              </li>
+              <li class="skill-item">
+                <div class="skill-badge-content">
+                  <span class="tech-icon-symbol codechef-color">CC</span>
+                  <span class="skill-name">CodeChef</span>
+                </div>
+                <a href="https://www.codechef.com/users/rcpit251109084" target="_blank" rel="noopener noreferrer"
+                  class="skill-status-tag tag-tool" title="View CodeChef Profile">Problem Solving &UpperRightArrow;</a>
+              </li>
+              <li class="skill-item">
+                <div class="skill-badge-content">
+                  <span class="tech-icon-symbol latex-color">TeX</span>
+                  <span class="skill-name">LaTeX</span>
+                </div>
+                <span class="skill-status-tag tag-tool">Academic Docs</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Category 4: Areas of Interest -->
+          <div class="skill-card">
+            <div class="skill-card-header">
+              <div class="skill-category-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <line x1="2" y1="12" x2="22" y2="12"></line>
+                  <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z">
+                  </path>
+                </svg>
+              </div>
+              <div>
+                <h3 class="skill-category-title">Areas of Interest</h3>
+                <span class="skill-category-subtitle">Focus &amp; Curiosity</span>
+              </div>
+            </div>
+
+            <ul class="interest-pills-list">
+              <li class="interest-pill">
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2">
+                  <polyline points="20 6 9 17 4 12" />
+                </svg>
+                <span>Web Development</span>
+              </li>
+              <li class="interest-pill">
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2">
+                  <polyline points="20 6 9 17 4 12" />
+                </svg>
+                <span>Data Structures and Algorithms</span>
+              </li>
+              <li class="interest-pill">
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2">
+                  <polyline points="20 6 9 17 4 12" />
+                </svg>
+                <span>Programming and Problem-Solving</span>
+              </li>
+              <li class="interest-pill">
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2">
+                  <polyline points="20 6 9 17 4 12" />
+                </svg>
+                <span>Software Development</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Projects Section -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Featured Projects</span>
+          <h2 class="section-title">Projects &amp; Academic Work</h2>
+          <p class="section-subtitle">Real academic projects and code repositories demonstrating practical problem
+            solving and web fundamentals.</p>
+        </div>
+
+        <div class="projects-grid">
+
+          <!-- PROJECT 1: Smart Event Certificate Generator & Verification Portal -->
+          <article class="project-card">
+            <div class="project-card-header">
+              <div class="project-meta">
+                <span class="project-category-badge">Academic Project</span>
+                <span class="project-status-badge status-in-progress">In Development / Concept</span>
+              </div>
+              <h3 class="project-title">Smart Event Certificate Generator &amp; Verification Portal</h3>
+            </div>
+
+            <p class="project-description">
+              An academic project focused on simplifying event certificate generation and verification. The proposed
+              system aims to automate certificate creation from participant information, assign unique certificate IDs,
+              and support QR-code-based online verification.
+            </p>
+
+            <div class="project-tags">
+              <span class="tag">Academic Project</span>
+              <span class="tag">Proposed: Web Tech</span>
+              <span class="tag">Unique ID System</span>
+              <span class="tag">QR Verification Concept</span>
+            </div>
+
+            <div class="project-footer">
+              <a href="https://github.com/hiteshmahajan2008-hdm?tab=repositories" target="_blank"
+                rel="noopener noreferrer" class="project-link"
+                aria-label="View Smart Event Certificate Generator project repository">
+                <span>View on GitHub Repositories</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- PROJECT 2: Certify-Me -->
+          <article class="project-card">
+            <div class="project-card-header">
+              <div class="project-meta">
+                <span class="project-category-badge">Development Project</span>
+                <span class="project-status-badge status-repository">GitHub Repository</span>
+              </div>
+              <h3 class="project-title">Certify-Me</h3>
+            </div>
+
+            <p class="project-description">
+              A certificate generation and management repository on GitHub. Built to explore automated generation
+              workflows, layout structuring, and practical implementation for certificates. Visit the repository to
+              explore the codebase and updates.
+            </p>
+
+            <div class="project-tags">
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+              <span class="tag">Academic Project</span>
+              <span class="tag">Certificate Management</span>
+            </div>
+
+            <div class="project-footer">
+              <a href="https://github.com/hiteshmahajan2008-hdm?tab=repositories" target="_blank"
+                rel="noopener noreferrer" class="project-link" aria-label="View Certify-Me repository on GitHub">
+                <span>View on GitHub</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- PROJECT 3: Events and Web Program -->
+          <article class="project-card">
+            <div class="project-card-header">
+              <div class="project-meta">
+                <span class="project-category-badge">Coursework &amp; Practice</span>
+                <span class="project-status-badge status-practice">Active Practice</span>
+              </div>
+              <h3 class="project-title">Events and Web Program</h3>
+            </div>
+
+            <p class="project-description">
+              An academic and web programming practice repository focused on understanding event handling mechanisms,
+              basic frontend layout structuring, and programming fundamentals.
+            </p>
+
+            <div class="project-tags">
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+              <span class="tag">Programming Exercises</span>
+              <span class="tag">Academic Practice</span>
+            </div>
+
+            <div class="project-footer">
+              <a href="https://github.com/hiteshmahajan2008-hdm?tab=repositories" target="_blank"
+                rel="noopener noreferrer" class="project-link"
+                aria-label="View Events and Web Program repository on GitHub">
+                <span>View on GitHub</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+              </a>
+            </div>
+          </article>
+
+        </div>
+
+        <!-- GitHub Repositories Banner -->
+        <div class="repos-banner">
+          <div class="repos-banner-content">
+            <svg class="repos-banner-icon" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24"
+              fill="currentColor">
+              <path
+                d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z" />
+            </svg>
+            <div>
+              <h4 class="repos-banner-title">Looking to explore all my code?</h4>
+              <p class="repos-banner-desc">Check out my complete list of public repositories and practice files on
+                GitHub.</p>
+            </div>
+          </div>
+          <a href="https://github.com/hiteshmahajan2008-hdm?tab=repositories" target="_blank" rel="noopener noreferrer"
+            class="btn btn-secondary">
+            <span>Browse All Repositories</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="section education-section" id="education">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Education</span>
+          <h2 class="section-title">Academic Background</h2>
+          <p class="section-subtitle">Formal studies in Information Technology at R.C. Patel Institute of Technology.
+          </p>
+        </div>
+
+        <div class="education-card-wrapper">
+          <div class="education-card">
+            <div class="education-icon-box">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 10v6M2 10l10-5 10 5-10 5z" />
+                <path d="M6 12v5c3 3 9 3 12 0v-5" />
+              </svg>
+            </div>
+
+            <div class="education-details">
+              <div class="education-timeline-badge">Currently Enrolled</div>
+              <h3 class="education-institution">R.C. Patel Institute of Technology, Shirpur</h3>
+              <p class="education-branch">Branch: <strong>Information Technology</strong></p>
+              <p class="education-year">Academic Standing: <strong>Second Year</strong></p>
+
+              <div class="education-location">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+                <span>Shirpur, Maharashtra, India</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Get In Touch</span>
+          <h2 class="section-title">Let's Connect</h2>
+          <p class="section-subtitle">I'm always interested in learning, building projects, and connecting with people
+            who share an interest in technology and software development.</p>
+        </div>
+
+        <div class="contact-box">
+          <!-- Contact Channels Info Cards -->
+          <div class="contact-info-grid">
+
+            <div class="contact-card">
+              <div class="contact-card-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+              </div>
+              <div class="contact-card-content">
+                <span class="contact-card-label">Direct Email</span>
+                <a href="mailto:mahajanhitesh225@gmail.com" class="contact-card-link">mahajanhitesh225@gmail.com</a>
+              </div>
+            </div>
+
+            <div class="contact-card">
+              <div class="contact-card-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+              </div>
+              <div class="contact-card-content">
+                <span class="contact-card-label">Location</span>
+                <span class="contact-card-text">Shirpur, Maharashtra, India</span>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Social Media Icons Row: GitHub, LinkedIn, CodeChef in One Neat Row -->
+          <div class="social-profiles-section">
+            <h4 class="social-profiles-heading">Profiles &amp; Coding Platforms</h4>
+            <div class="social-icons-row" role="list" aria-label="Social and coding profiles">
+
+              <!-- GitHub Profile Icon -->
+              <a href="https://github.com/hiteshmahajan2008-hdm" target="_blank" rel="noopener noreferrer"
+                class="social-icon-btn github-btn" role="listitem" aria-label="GitHub Profile" title="GitHub Profile">
+                <svg class="social-svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                  fill="currentColor">
+                  <path
+                    d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z" />
+                </svg>
+                <span class="social-label">GitHub</span>
+              </a>
+
+              <!-- LinkedIn Profile Icon -->
+              <a href="https://www.linkedin.com/in/hitesh-mahajan-477370443/" target="_blank" rel="noopener noreferrer"
+                class="social-icon-btn linkedin-btn" role="listitem" aria-label="LinkedIn Profile"
+                title="LinkedIn Profile">
+                <svg class="social-svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                  fill="currentColor">
+                  <path
+                    d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+                </svg>
+                <span class="social-label">LinkedIn</span>
+              </a>
+
+              <!-- CodeChef Profile Icon (Positioned beside LinkedIn) -->
+              <a href="https://www.codechef.com/users/rcpit251109084" target="_blank" rel="noopener noreferrer"
+                class="social-icon-btn codechef-btn" role="listitem" aria-label="CodeChef Profile"
+                title="CodeChef Profile">
+                <!-- Recognized CodeChef Chef Hat Emblem -->
+                <svg class="social-svg codechef-svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                  viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M12 2C9.5 2 7.4 3.6 6.8 5.8C5.2 6.3 4 7.8 4 9.6C4 11.6 5.4 13.2 7.3 13.5C7.7 15.6 9.7 17.2 12 17.2C14.3 17.2 16.3 15.6 16.7 13.5C18.6 13.2 20 11.6 20 9.6C20 7.8 18.8 6.3 17.2 5.8C16.6 3.6 14.5 2 12 2ZM7.5 19H16.5C17.1 19 17.5 19.4 17.5 20C17.5 20.6 17.1 21 16.5 21H7.5C6.9 21 6.5 20.6 6.5 20C6.5 19.4 6.9 19 7.5 19Z" />
+                </svg>
+                <span class="social-label">CodeChef</span>
+              </a>
+
+            </div>
+          </div>
+
+          <!-- Direct Action Buttons -->
+          <div class="contact-actions-bar">
+            <a href="mailto:mahajanhitesh225@gmail.com" class="btn btn-primary">
+              <svg class="btn-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+              <span>Send Me an Email</span>
+            </a>
+
+            <a href="https://github.com/hiteshmahajan2008-hdm" target="_blank" rel="noopener noreferrer"
+              class="btn btn-secondary">
+              <svg class="btn-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+                fill="currentColor">
+                <path
+                  d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z" />
+              </svg>
+              <span>GitHub Profile</span>
+            </a>
+
+            <a href="https://www.linkedin.com/in/hitesh-mahajan-477370443/" target="_blank" rel="noopener noreferrer"
+              class="btn btn-outline">
+              <svg class="btn-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+                fill="currentColor">
+                <path
+                  d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+              </svg>
+              <span>Connect on LinkedIn</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <span class="footer-name">Hitesh Mahajan</span>
+          <p class="footer-motto">Learning | Building | Improving</p>
+        </div>
+
+        <div class="footer-social-links">
+          <a href="https://github.com/hiteshmahajan2008-hdm" target="_blank" rel="noopener noreferrer"
+            class="footer-social-link" aria-label="GitHub Profile">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z" />
+            </svg>
+            <span>GitHub</span>
+          </a>
+          <a href="https://www.linkedin.com/in/hitesh-mahajan-477370443/" target="_blank" rel="noopener noreferrer"
+            class="footer-social-link" aria-label="LinkedIn Profile">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+            </svg>
+            <span>LinkedIn</span>
+          </a>
+          <a href="https://www.codechef.com/users/rcpit251109084" target="_blank" rel="noopener noreferrer"
+            class="footer-social-link" aria-label="CodeChef Profile">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M12 2C9.5 2 7.4 3.6 6.8 5.8C5.2 6.3 4 7.8 4 9.6C4 11.6 5.4 13.2 7.3 13.5C7.7 15.6 9.7 17.2 12 17.2C14.3 17.2 16.3 15.6 16.7 13.5C18.6 13.2 20 11.6 20 9.6C20 7.8 18.8 6.3 17.2 5.8C16.6 3.6 14.5 2 12 2ZM7.5 19H16.5C17.1 19 17.5 19.4 17.5 20C17.5 20.6 17.1 21 16.5 21H7.5C6.9 21 6.5 20.6 6.5 20C6.5 19.4 6.9 19 7.5 19Z" />
+            </svg>
+            <span>CodeChef</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="copyright-text">
+          &copy; <span id="current-year">2026</span> Hitesh Mahajan. All rights reserved. Built with HTML, CSS &amp;
+          Vanilla JavaScript.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll-to-Top Button -->
+  <button id="scroll-to-top" class="scroll-to-top" aria-label="Scroll back to top of page" title="Scroll to top">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <line x1="12" y1="19" x2="12" y2="5"></line>
+      <polyline points="5 12 12 5 19 12"></polyline>
+    </svg>
+  </button>
+
+  <!-- ========================================================================
+       MODAL: Resume "Coming Soon" Dialog
+       ======================================================================== -->
+  <div class="modal-overlay" id="resume-modal" role="dialog" aria-modal="true" aria-labelledby="resume-modal-title"
+    aria-hidden="true">
+    <div class="modal-card">
+      <button type="button" class="modal-close-btn" id="resume-modal-close"
+        aria-label="Close resume modal">&times;</button>
+
+      <div class="modal-icon-badge">
+        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none"
+          stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+          <polyline points="14 2 14 8 20 8"></polyline>
+          <line x1="16" y1="13" x2="8" y2="13"></line>
+          <line x1="16" y1="17" x2="8" y2="17"></line>
+          <polyline points="10 9 9 9 8 9"></polyline>
+        </svg>
+      </div>
+
+      <h3 class="modal-title" id="resume-modal-title">My Resume is Coming Soon!</h3>
+      <p class="modal-desc">
+        I'm preparing my resume. Please check back later, or contact me directly for more information.
+      </p>
+
+      <div class="modal-actions">
+        <a href="mailto:mahajanhitesh225@gmail.com" class="btn btn-primary">
+          <svg class="btn-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+            <polyline points="22,6 12,13 2,6"></polyline>
+          </svg>
+          <span>Contact Me</span>
+        </a>
+        <button type="button" class="btn btn-secondary" id="resume-modal-dismiss">
+          <span>Close</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================================================
+       WIDGET: "Ask Hitesh" Floating Chatbot
+       ======================================================================== -->
+  <div class="chatbot-wrapper" id="chatbot-wrapper">
+    <!-- Chatbot Floating Toggle Button -->
+    <button type="button" class="chatbot-toggle-btn" id="chatbot-toggle-btn" aria-label="Open Ask Hitesh chatbot"
+      aria-expanded="false" aria-controls="chatbot-panel" title="Chat with Hitesh's Assistant">
+      <span class="chatbot-toggle-icon">
+        <!-- Message bubble icon -->
+        <svg class="icon-chat" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none"
+          stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+        </svg>
+        <!-- Close icon -->
+        <svg class="icon-close" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"
+          fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </span>
+      <span class="chatbot-toggle-label">Ask Hitesh</span>
+      <span class="chatbot-pulse-dot" aria-hidden="true"></span>
+    </button>
+
+    <!-- Chatbot Window Panel -->
+    <div class="chatbot-panel" id="chatbot-panel" aria-hidden="true" role="region"
+      aria-label="Ask Hitesh Chat Assistant">
+      <!-- Chat Header -->
+      <div class="chatbot-header">
+        <div class="chatbot-header-info">
+          <div class="chatbot-avatar-circle">HM</div>
+          <div>
+            <h3 class="chatbot-header-title">Ask Hitesh</h3>
+            <span class="chatbot-header-subtitle"><span class="status-indicator-dot"></span> Virtual Assistant</span>
+          </div>
+        </div>
+        <button type="button" class="chatbot-close-btn" id="chatbot-panel-close"
+          aria-label="Close chat window">&times;</button>
+      </div>
+
+      <!-- Messages Body Area -->
+      <div class="chatbot-messages" id="chatbot-messages" tabindex="0" role="log" aria-live="polite">
+        <!-- Messages will be dynamically rendered here -->
+      </div>
+
+      <!-- Suggested Questions Bar -->
+      <div class="chatbot-suggestions-section" id="chatbot-suggestions">
+        <div class="suggestions-header">
+          <span>Suggested Questions:</span>
+        </div>
+        <div class="suggestions-pills" id="suggestions-pills">
+          <button type="button" class="suggestion-pill" data-question="Who is Hitesh?">Who is Hitesh?</button>
+          <button type="button" class="suggestion-pill" data-question="What is he studying?">What is he
+            studying?</button>
+          <button type="button" class="suggestion-pill" data-question="What are his skills?">What are his
+            skills?</button>
+          <button type="button" class="suggestion-pill" data-question="Tell me about his projects.">Tell me about his
+            projects.</button>
+          <button type="button" class="suggestion-pill"
+            data-question="Which programming languages is he learning?">Which programming languages is he
+            learning?</button>
+          <button type="button" class="suggestion-pill" data-question="How can I contact him?">How can I contact
+            him?</button>
+          <button type="button" class="suggestion-pill"
+            data-question="Where can I find his GitHub and CodeChef profiles?">Where can I find his GitHub and CodeChef
+            profiles?</button>
+        </div>
+      </div>
+
+      <!-- Chat Input Form -->
+      <form class="chatbot-input-form" id="chatbot-form" onsubmit="return false;">
+        <input type="text" id="chatbot-input" class="chatbot-input-field" placeholder="Ask a question..."
+          autocomplete="off" aria-label="Type your question about Hitesh">
+        <button type="submit" id="chatbot-send-btn" class="chatbot-send-btn" aria-label="Send question">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="22" y1="2" x2="11" y2="13"></line>
+            <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+          </svg>
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- JavaScript Script -->
+  <script src="script.js"></script>
+</body>
+
+</html>
